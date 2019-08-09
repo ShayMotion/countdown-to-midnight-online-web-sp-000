@@ -8,3 +8,6 @@ def countdown
   break
   puts "Happy New Year!"
 end
+
+countdown_with_sleep(countdown)
+sleep 2.seconds
